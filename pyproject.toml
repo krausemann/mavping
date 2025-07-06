@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "A Python tool for measuring round-trip time (RTT) using the MAVLink TIMESYNC protocol"
 readme = "README.md"
 license = "MIT"
-license-files = ["LICEN[CS]E*"]
+license-files = ["licenses/*"]
 authors = [
     {name = "Thomas Krausemann", email = "Thomas.Krausemann@protonmail.com"}
 ]
