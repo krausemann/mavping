@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+src/*.egg-info/
+
+# Build and distribution
+build/
+dist/
+*.egg
+
+# Virtual environments
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# MAVLink specific
+*.mavlink
+*.xml 
