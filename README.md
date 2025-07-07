@@ -1,5 +1,9 @@
 # MAVPing
 
+[![Test and Build](https://github.com/krausemann/mavping/actions/workflows/test.yml/badge.svg)](https://github.com/krausemann/mavping/actions/workflows/test.yml)  
+[![Publish to PyPI](https://github.com/krausemann/mavping/actions/workflows/publish.yml/badge.svg)](https://github.com/krausemann/mavping/actions/workflows/publish.yml)
+
+
 A Python tool for measuring round-trip time (RTT) using the MAVLink [TIMESYNC](https://mavlink.io/en/services/timesync.html) protocol. This tool uses sends TIMESYNC messages and calculates the latency between your system and a MAVLink-compatible device. It is built using the [pymavlink](https://github.com/ArduPilot/pymavlink) library.
 
 ## Features
@@ -102,7 +106,7 @@ RTT Statistics (ms):
 
 ## License
 
-mavping is released under MIT License. It was created created with assistance from Cursor IDE, using an unspecified reasoning model. Parts of it might resemble other software which was used to train the model. It was not possible to verify possible copyright violations. Kindly contact the author in case you think your copyright is violated.
+mavping is released under MIT License. It was created with assistance from Cursor IDE, using an unspecified reasoning model. Parts of it might resemble other software which was used to train the model. It was not possible to verify possible copyright violations. Kindly contact the author in case you think your copyright is violated.
 
 ## Repository
 
